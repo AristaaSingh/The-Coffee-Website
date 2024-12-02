@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cappuccino</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Abril Fatface font taken from Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!-- icons from Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script defer src="FadeScroll.js"></script>
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar1">
+        <a class="navbar-brand">Explore Coffee<i class='bx bxs-coffee-bean'></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+                <!-- dropdown menu which extends from types of coffee option -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Types of Coffee</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="1Cappuccino.html">Cappuccino</a>
+                        <a class="dropdown-item" href="2Mocha.html">Caffe Mocha</a>
+                        <a class="dropdown-item" href="3Espresso.html">Espresso</a>
+                        <a class="dropdown-item" href="4Americano.html">Caffe Americano</a>
+                        <a class="dropdown-item" href="5Affogato.html">Caffe Affogato</a>
+                        <a class="dropdown-item" href="types.html"><i class='bx bx-collection' ></i> See All</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="newsletter.html">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hidden">
+    <!-- using Bootstrap Jumbotron with image background and text -->
+    <div class=" jumbotron jumbotron-cappuccino"> 
+        <br><br><br><br>
+        <h1 class="display-4">The Cappuccino</h1>
+    </div>
+    </section>
+    <br>
+    
+    <!-- using bootstrap's grid system to place image and text with neat alignment -->
+    <div class="container">
+        <section class="hidden">
+            <div class="row">
+                <!-- image in first column, center align on mobile, normal align on desktop -->
+                <div class="col-md-4 mx-auto text-center mb-3 mb-md-0 d-flex align-items-center"> 
+                    <img src="images/Cappuccino2.png" alt="Cappuccino Cutout image" class="img-fluid" 
+                    style="display: flex; align-items: center;">
+                </div>
+                <!-- text in second column -->
+                <div class="col-md-8" style="overflow-y: auto;">
+                    <p class="p-content1" style="text-align: justify;">A cappuccino is an espresso-based coffee drink with 
+                        steamed milk foam, traditionally smaller in volume than a latte but with a thicker layer of 
+                        microfoam. It can be prepared with variations like using cream or non-dairy milk substitutes and 
+                        flavored with cinnamon or cocoa powder. The name "cappuccino" originates from the Capuchin friars, 
+                        referring to the color of their habits and the beverage's resemblance when milk is added to dark 
+                        coffee. Its modern appearance, characterized by espresso créma and steamed milk, has evolved over 
+                        time.<sup>(2)</sup></p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="hidden">
+            <div class="row">
+                <!-- text in first column -->
+                <div class="col-md-8" style="overflow-y: auto;">
+                    <h3 class="h3-coffees">Make the Perfect Cappuccino!</h3>
+                    <ol class="steps">
+                        <li>
+                        First, steam the milk. Heat 1 cup of milk in a 2-quart saucepan over medium heat. Let the milk 
+                        simmer until bubbles form around the edges, but don’t boil the milk. Remove the pan from heat and 
+                        set it on a flat surface.
+                        </li>
+                        <br>
+                        <li>
+                        Next, whip the milk with an electric mixer, increasing the speed as the milk begins to thicken. 
+                        Continue mixing until you get the desired volume of froth.
+                        </li>
+                        <br>
+                        <li>
+                        Now, make the coffee. Measure 2 tablespoons of grounds for 5 to 6 ounces of water. You can brew 
+                        the coffee in an automatic drip coffeemaker or a French press.
+                        </li>
+                        <br>
+                        <li>
+                        Now, make the cappuccino! A classic cappuccino calls for 1/3 espresso, 1/3 steamed milk, and 1/3 
+                        foam. You can mix it up by using 2 or 3 tablespoons of flavored syrups or even different kinds of 
+                        milk, like chocolate or vanilla. <sup>(2)</sup>
+                        </li>
+                    </ol>
+                </div>
+                <!-- object in second column, center align on mobile, normal align on desktop -->
+                <div class="col-md-4 mx-auto text-center mb-3 mb-md-0 d-flex align-items-center">
+                    <figure class="video">
+                        <iframe width="400" height="315" src="https://www.youtube.com/embed/gvPetTPFsZM?si=UaQFIkS7ur_I9fjR" 
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 10px;"></iframe>
+                        <figcaption class="p-content1">How to make Cappuccino, by 'Munchies'</figcaption>  
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br><br><br>
+
+    <div onclick="scrollToTop()" class="scrollTop1"><i class='bx bxs-up-arrow'></i></div>
+    <!-- for the scroll to top button I have taken help from a tutorial for which the reference is below:
+    LearnDesign. 2021. Scroll To Top Button (Back To Top) Using Simple JAVASCRIPT | Click to Scroll Top | CSS
+    Smooth Scroll. [Online]. [Accessed 24 April 2024]. Available from: https://youtu.be/3Jbb3sQVVq0?si=8wkMuBN6DY-NSury -->
+
+    <!-- referencing for cappuccino page -->
+    <footer class="bg-light text-justify py-3">
+        <div class="container-references">
+            <h6 class="h6-references">References</h3>
+            <p>
+                <ul class='reference'>
+                    <li>
+                    (1) Wikipedia. 2020. Cappuccino. [Online]. [Accessed 27 February 2024]. 
+                    Available from: https://en.wikipedia.org/wiki/Cappuccino
+                    </li> <br>
+                    <li>
+                    (2) The Forger Coffee Company. 2024. Forgers’ website. [Online]. [Accessed 27 February 2024]. 
+                    Available from: https://www.folgerscoffee.com/coffee/how-to/make-cappuccino
+                    </li> <br>
+                    <li>
+                    Munchies. 2015 <i>How To Make the Perfect Cappuccino.</i> [Online]. [Accessed 20 April 2024]. 
+                    Available from: https://www.youtube.com/watch?v=gvPetTPFsZM
+                </li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="ScrollTop.js"></script>
+
+</body>
+</html>

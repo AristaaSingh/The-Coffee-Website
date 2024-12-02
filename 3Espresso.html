@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espresso</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Abril Fatface font taken from Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!-- icons from Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script defer src="FadeScroll.js"></script>
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar1">
+        <a class="navbar-brand">Explore Coffee<i class='bx bxs-coffee-bean'></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+                <!-- dropdown menu which extends from types of coffee option -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Types of Coffee</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="1Cappuccino.html">Cappuccino</a>
+                        <a class="dropdown-item" href="2Mocha.html">Caffe Mocha</a>
+                        <a class="dropdown-item" href="3Espresso.html">Espresso</a>
+                        <a class="dropdown-item" href="4Americano.html">Caffe Americano</a>
+                        <a class="dropdown-item" href="5Affogato.html">Caffe Affogato</a>
+                        <a class="dropdown-item" href="types.html"><i class='bx bx-collection' ></i> See All</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="newsletter.html">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hidden">
+    <!-- using Bootstrap Jumbotron with image background and text -->
+    <div class=" jumbotron jumbotron-espresso"> 
+        <br><br><br><br>
+        <h1 class="display-4">The Espresso</h1>
+    </div>
+    </section>
+    <br>
+    
+    <!-- using bootstrap's grid system to place image and text with neat alignment -->
+    <div class="container">
+        <section class="hidden">
+            <div class="row">
+                <!-- image in first column, center align on mobile, normal align on desktop -->
+                <div class="col-md-4 mx-auto text-center mb-3 mb-md-0 d-flex align-items-center"> 
+                    <img src="images/Espresso2.png" alt="Espresso Cutout image" class="img-fluid" 
+                    style="display: flex; align-items: center;">
+                </div>
+                <!-- text in second column -->
+                <div class="col-md-8" style="overflow-y: auto;">
+                    <p class="p-content1" style="text-align: justify;">Espresso is a coffee-brewing method originating 
+                        from Italy, with significant contributions from French inventions leading to today's espresso 
+                        machines. It involves forcing nearly boiling water under pressure through finely ground coffee 
+                        beans. Espresso is highly popular globally and can be made with various coffee beans and 
+                        roasting degrees. It's distinguished by its thickness, similar to warm honey, and the creamy 
+                        foam called crema that forms on top. The pressurized brewing process concentrates flavors and 
+                        chemicals, resulting in a potent cup of coffee. The crema, a dense foam layer, is unique to 
+                        espresso due to emulsified oils and dissolved carbon dioxide. Espresso is enjoyed on its own and 
+                        serves as the base for numerous other coffee drinks like caffè latte, cappuccino, caffè 
+                        macchiato, mocha, flat white, and caffè americano.<sup>(1)</sup></p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="hidden">
+            <div class="row">
+                <!-- text in first column -->
+                <div class="col-md-8" style="overflow-y: auto;">
+                    <h3 class="h3-coffees">Make the Perfect Espresso!</h3>
+                    <ol class="steps">
+                        <li>
+                        Use the finest setting on your grinder with espresso or dark roast beans. Grind enough beans for 
+                        one or two shots. For a single shot, you'll need about 9-10g of whole bean coffee.
+                        </li>
+                        <br>
+                        <li>
+                        Evenly distribute grounds in the filter and tamp down firmly to create a compact espresso disk.
+                        </li>
+                        <br>
+                        <li>
+                        Pour the steamed milk into the cup steadily, aiming into the center as the volume increases.
+                        </li>
+                        <br>
+                        <li>
+                        Purge the machine by briefly running it without the portafilter. Lock the portafilter, position 
+                        your demitasse glass underneath, and start the shot. Espresso should be ready in 25-30 seconds, 
+                        with a caramel-colored crema on top <sup>(2)</sup>
+                        </li>
+                    </ol>
+                </div>
+                <!-- object in second column, center align on mobile, normal align on desktop -->
+                <div class="col-md-4 mx-auto text-center mb-3 mb-md-0 d-flex align-items-center">
+                    <figure class="video">
+                        <iframe width="400" height="315" src="https://www.youtube.com/embed/ZuQu12vMQZM?si=T5WfFFeJPLnwlUar" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 10px;"></iframe>
+                        <figcaption class="p-content1">How to make Espresso, by 'Joshua Weissman'</figcaption>   
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br><br><br>
+
+    <div onclick="scrollToTop()" class="scrollTop1"><i class='bx bxs-up-arrow'></i></div>
+    <!-- for the scroll to top button I have taken help from a tutorial for which the reference is below:
+    LearnDesign. 2021. Scroll To Top Button (Back To Top) Using Simple JAVASCRIPT | Click to Scroll Top | CSS
+    Smooth Scroll. [Online]. [Accessed 24 April 2024]. Available from: https://youtu.be/3Jbb3sQVVq0?si=8wkMuBN6DY-NSury -->
+
+    <!-- referencing for espresso page -->
+    <footer class="bg-light text-justify py-3">
+        <div class="container-references">
+            <h6 class="h6-references">References</h3>
+            <p>
+                <ul class='reference'>
+                    <li>
+                    (1) Wikipedia. 2021. Espresso [Online] [Accessed 27 February 2024] Available from: 
+                    https://en.wikipedia.org/wiki/Espresso
+                    </li> <br>
+                    <li>
+                    (2) Olsen, C., Papantoniou, N. and Institute, G.H. (2021). Your Guide to Pulling Espresso Like a 
+                    Barista. Good Housekeeping. [Online] [Accessed 27 February 2024] Available at: 
+                    https://www.goodhousekeeping.com/food-recipes/cooking/a35952377/how-to-make-espresso/
+                    </li> <br>
+                    <li>
+                    Joshua Weissman. 2019. <i>The Espresso Guide For Beginners</i> [Online] [Accessed 20 April 2024]
+                    Available from: https://www.youtube.com/watch?v=ZuQu12vMQZM
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="ScrollTop.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Abril Fatface font taken from Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!-- icons from Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script defer src="FadeScroll.js"></script>
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar1">
+        <a class="navbar-brand">Explore Coffee<i class='bx bxs-coffee-bean'></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+                <!-- dropdown menu which extends from types of coffee option -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Types of Coffee</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="1Cappuccino.html">Cappuccino</a>
+                        <a class="dropdown-item" href="2Mocha.html">Caffe Mocha</a>
+                        <a class="dropdown-item" href="3Espresso.html">Espresso</a>
+                        <a class="dropdown-item" href="4Americano.html">Caffe Americano</a>
+                        <a class="dropdown-item" href="5Affogato.html">Caffe Affogato</a>
+                        <a class="dropdown-item" href="types.html"><i class='bx bx-collection' ></i> See All</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="newsletter.html">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hidden">
+    <!-- using Bootstrap Jumbotron with image background and text -->
+    <div class=" jumbotron jumbotron-mocha"> 
+        <br><br><br><br>
+        <h1 class="display-4">The Caffè Mocha</h1>
+    </div>
+    </section>
+    <br>
+    
+    <!-- using bootstrap's grid system to place image and text with neat alignment -->
+    <div class="container">
+        <section class="hidden">
+            <div class="row">
+                <!-- image in first column, center align on mobile, normal align on desktop -->
+                <div class="col-md-4 mx-auto text-center mb-3 mb-md-0 d-flex align-items-center"> 
+                    <img src="images/Mocha2.png" alt="Mocha Cutout image" class="img-fluid" 
+                    style="display: flex; align-items: center;">
+                </div>
+                <!-- text in second column -->
+                <div class="col-md-8" style="overflow-y: auto;">
+                    <p class="p-content1" style="text-align: justify;">A caffè mocha, also known as mocaccino or 
+                        mochachino, is a chocolate-flavored warm beverage resembling a caffè latte, often served in a 
+                        glass rather than a mug. Its name originates from the Yemeni port of Mokha, renowned for coffee 
+                        trade in the 15th to 17th centuries. Despite the rarity of pure Yemeni coffee, European 
+                        importers labeled Arabian coffee as "Mochas." The modern mocha incorporates chocolate, perhaps 
+                        influenced by the chocolatey tones found in Yemeni coffee. Chocolate and coffee were combined in 
+                        17th-century Italy, leading to the evolution of drinks like bavareisa and bicerin. Before the 
+                        1900s, "Mocha" referred solely to Yemeni coffee, but its meaning gradually shifted. Recipes 
+                        featuring chocolate and coffee, reminiscent of mocha, emerged in the early 20th century, 
+                        including a recipe for "Chilled Mocha" published in 1920.<sup>(1)</sup></p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="hidden">
+            <div class="row">
+                <!-- text in first column -->
+                <div class="col-md-8" style="overflow-y: auto;">
+                    <h3 class="h3-coffees">Make the Perfect Caffè Mocha!</h3>
+                    <ol class="steps">
+                        <li>
+                        Make approximately 35ml of espresso using a coffee machine and pour it into the base of your 
+                        cup. Add drinking chocolate to the espresso and mix until smooth.
+                        </li>
+                        <br>
+                        <li>
+                        Steam the milk using the steamer attachment until it has around 4-6cm of foam on top.Hold the 
+                        milk jug so that the spout is about 3-4cm above the cup.
+                        </li>
+                        <br>
+                        <li>
+                        Pour the steamed milk into the cup steadily, aiming into the center as the volume increases.
+                        </li>
+                        <br>
+                        <li>
+                        Bring the milk jug closer to the surface of the coffee as you pour. Tilt the milk jug slightly 
+                        to accelerate the pour, allowing the milk to create a pattern on the top of the drink as it 
+                        folds naturally. <sup>(2)</sup>
+                        </li>
+                    </ol>
+                </div>
+                <!-- object in second column, center align on mobile, normal align on desktop -->
+                <div class="col-md-4 mx-auto text-center mb-3 mb-md-0 d-flex align-items-center">
+                    <figure class="video">
+                        <iframe width="400" height="315" src="https://www.youtube.com/embed/g86JjlpegIM?si=z3Dbt8oNY_rmtEZq" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 10px;"></iframe>
+                        <figcaption class="p-content1">How to make Mocha, by 'Pact Coffee'</figcaption>   
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br><br><br>
+
+    <div onclick="scrollToTop()" class="scrollTop2"><i class='bx bxs-up-arrow'></i></div>
+    <!-- for the scroll to top button I have taken help from a tutorial for which the reference is below:
+    LearnDesign. 2021. Scroll To Top Button (Back To Top) Using Simple JAVASCRIPT | Click to Scroll Top | CSS
+    Smooth Scroll. [Online]. [Accessed 24 April 2024]. Available from: https://youtu.be/3Jbb3sQVVq0?si=8wkMuBN6DY-NSury -->
+
+    <!-- referencing for mocha page -->
+    <footer class="bg-light text-justify py-3">
+        <div class="container-references">
+            <h6 class="h6-references">References</h3>
+            <p>
+                <ul class='reference'>
+                    <li>
+                    (1) Wikipedia. 2020. Caffe Mocha [Online] [Accessed 27 February 2024] Available from: 
+                    https://en.wikipedia.org/wiki/Caff%C3%A8_mocha
+                    </li> <br>
+                    <li>
+                    (2) The Forger Coffee Company. 2024. Forgers’ website. [Online]. [Accessed 
+                    27 February 2024]. Available from: https://www.folgerscoffee.com/coffee/how-to/make-cappuccino
+                    </li> <br>
+                    <li>
+                    Pact Coffee. 2021. <i>How to make a Mocha | Mocha Guide - Pact Coffee</i> [Online] [Accessed 20 April
+                    2024]. Available from: https://www.youtube.com/watch?v=g86JjlpegIM
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="ScrollTop.js"></script>
+
+</body>
+</html>
