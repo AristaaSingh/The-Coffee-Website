@@ -1,0 +1,314 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* for coffee pages fade scroll effect */
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 3s;
+}
+
+.show {
+  opacity: 1;
+}
+
+
+/* for scroll to top button */
+
+/* for the scroll to top button I have taken help from a tutorial for which the reference is below:
+LearnDesign. 2021. Scroll To Top Button (Back To Top) Using Simple JAVASCRIPT | Click to Scroll Top | CSS
+Smooth Scroll. [Online]. [Accessed 24 April 2024]. Available from: https://youtu.be/3Jbb3sQVVq0?si=8wkMuBN6DY-NSury */
+
+* {
+  scroll-behavior: smooth;
+}
+
+.scrollTop1 {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: #6e5555;
+  color: #ffffff;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.scrollTop1:hover {
+  background-color: #ffebcd;
+  color: #6e5555;
+}
+
+.scrollTop2 {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: #9f5e71;
+  color: #ffffff;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.scrollTop2:hover {
+  background-color: #ffebcd;
+  color: #9f5e71;
+}
+
+
+/* headings */
+.h6-references {
+  font-size: small;
+  font-family: "Didot", serif;
+  padding-left: 40px;
+}
+
+.h3-coffees {
+  font-family: "Didot", serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.h2-combinations {
+  font-family: "Didot", serif; 
+  text-align: center;
+}
+
+
+/* text */
+.p-content1 {
+  font-family: "Didot", serif;
+  padding: 20px;
+}
+
+.card-content1 {
+  font-family: "Didot", serif;
+  padding: 0;
+}
+
+ol.steps {
+  font-family: 'Didot', 'Arial Narrow', Arial, serif;
+  text-align: justify;
+  padding: 20px;
+}
+
+
+/* jumbotrons and headbands */
+.jumbotron-home {
+  background-image: url('images/CoffeeBeans.jpg'); 
+  background-size: cover;
+  color: white;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.jumbotron-history {
+  background-image: url('images/CoffeeHistory.jpeg'); 
+  background-size: cover;
+  color: white;
+  font-family: "Abril Fatface", serif;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+}
+
+.jumbotron-newsletter {
+  background-image: url('images/PatternsBrown.jpeg'); 
+  background-size: cover;
+  color: white;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.jumbotron-cappuccino {
+  background-image: url('images/FlowerBrown.jpg'); 
+  background-size: cover;
+  color: #6e5555;
+  font-family: "Abril Fatface", serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  text-align: center;
+  height: 400px;
+}
+
+.jumbotron-mocha {
+  background-image: url('images/PinkTulips.jpg'); 
+  background-size: cover;
+  color: #9f5e71;
+  font-family: "Abril Fatface", serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  text-align: center;
+  height: 400px;
+}
+
+.jumbotron-espresso {
+  background-image: url('images/HeartsBrown.jpg'); 
+  background-size: cover;
+  color: #6e5555;
+  font-family: "Abril Fatface", serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  text-align: center;
+  height: 400px;
+}
+
+.jumbotron-americano {
+  background-image: url('images/FlowersPink.jpg'); 
+  background-size: cover;
+  color: #9f5e71;
+  font-family: "Abril Fatface", serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  text-align: center;
+  height: 400px;
+}
+
+.jumbotron-affogato {
+  background-image: url('images/RosesBrown.jpeg'); 
+  background-size: cover;
+  color: #6e5555;
+  font-family: "Abril Fatface", serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  text-align: center;
+  height: 400px;
+}
+
+
+/* containers */
+.container {
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+.container-references {
+  font-family: "Didot", serif;
+  font-size: 60%;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.container-carousel {
+  margin: 10%;
+  align-items: center;
+}
+
+.container-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.video {
+  padding-right: 40%;
+  width: 560;
+  height: 315;
+}
+
+
+/* navigation bar */
+.my-navbar1 {
+  font-family: "Didot", serif; 
+  font-size: 20px; 
+  background-color: #6e5555;
+}
+
+
+/* forms */
+
+/* for the input tag styling I have taken help from a tutorial for which the referencing is given below:
+Coding ARK. 2020. Amazing Newsletter Form Using CSS and JQuery | Coding ARK. [Online]. [Accessed 27 April 2024]. 
+Available from: https://youtu.be/-asU_2U89WA?si=BmKgSL1X1MWvGyhl */
+
+.input1 {
+  padding: 0 40px;
+  width: 60vw;
+  height: 50px;
+  background-color: #ffffff;
+  color: #6e5555;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 1px 6px #cabfbf;
+  outline: none;
+  font-family: "Didot", serif;
+  margin-bottom: 20px;
+}
+
+/* for the submit tag styling I have taken help from a tutorial for which the referencing is given below:
+Coding ARK. 2020. Amazing Newsletter Form Using CSS and JQuery | Coding ARK. [Online]. [Accessed 27 April 2024]. 
+Available from: https://youtu.be/-asU_2U89WA?si=BmKgSL1X1MWvGyhl */
+
+.submit1 {
+  position: relative;
+  /* margin: 0 20px; */
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Didot", serif;
+  background: none;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 1px 6px 0 #cabfbf;
+  outline: none;
+  transition: 0.2 ease-out;
+  overflow: hidden;
+}
+.submit1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150px;
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(45deg, #dcbcc6, #6e5555);
+  z-index: -1;
+  transition: 0.5s ease-out;
+}
+.submit1:hover::before {
+  left: 0;
+}
+
+
+/* card */
+
+/* for the hover card effects I have taken help from a tutorial for which the link is given below: 
+https://www.instagram.com/reel/C2CfOYkPsP2/?igsh=MTl5eXJ4anhpaTNjOQ== */
+
+.card {
+  border: none;
+  border-radius: 25px;
+  position: relative;
+  aspect-ratio: 1 / 0.7;
+}
+
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0); 
+  border-radius: 30px;
+  transition: filter 0.5s ease-in-out;
+}
+
+.card .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease; 
+}

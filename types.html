@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypesOfCoffee</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Abril Fatface font taken from Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!-- icons from Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar1">
+        <a class="navbar-brand">Explore Coffee<i class='bx bxs-coffee-bean'></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+                <!-- dropdown menu which extends from types of coffee option -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Types of Coffee</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="1Cappuccino.html">Cappuccino</a>
+                        <a class="dropdown-item" href="2Mocha.html">Caffe Mocha</a>
+                        <a class="dropdown-item" href="3Espresso.html">Espresso</a>
+                        <a class="dropdown-item" href="4Americano.html">Caffe Americano</a>
+                        <a class="dropdown-item" href="5Affogato.html">Caffe Affogato</a>
+                        <a class="dropdown-item" href="types.html"><i class='bx bx-collection' ></i> See All</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="newsletter.html">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--  bootstrap carousel of types of coffee (images link to corresponding webpages)  -->
+    <div class="container-carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="1Cappuccino.html"><img class="d-block w-100" src="images/Cappuccino1.JPG"
+                    style="border-radius: 25px;" alt="Link to Cappuccino page"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="2Mocha.html"><img class="d-block w-100" src="images/Mocha1.JPG" 
+                    style="border-radius: 25px;" alt="Link to Mocha page"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="3Espresso.html"><img class="d-block w-100" src="images/Espresso1.jpg" 
+                    style="border-radius: 25px;" alt="Link to Espresso page"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="4Americano.html"><img class="d-block w-100" src="images/Americano1.jpg" 
+                    style="border-radius: 25px;" alt="Link to Americano page"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="5Affogato.html"><img class="d-block w-100" src="images/Affogato1.jpeg" 
+                    style="border-radius: 25px;" alt="Link to Affogato page"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" 
+            data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" 
+            data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- referencing for types (the photos being used) -->
+    <footer class="bg-light text-justify py-3">
+        <div class="container-references">
+            <h6 class="h6-references">References</h3>
+            <p>
+                <ul class='reference'>
+                    <li>
+                        Jonathan M. 2014. <i>Cappuccino at Sightglass Coffee in San Francisco</i> [Online] 
+                        [Accessed 27 February 2024] Available from: https://en.wikipedia.org/wiki/Cappuccino#/media/File:Cappuccino_at_Sightglass_Coffee.jpg
+                    </li> <br>
+                    <li>
+                        2024. <i>Photograph of Caffe Mocha.</i> [Online] [Accessed 27 February 2024] 
+                        Available from: https://recipes.net/articles/what-is-cafe-mocha/
+                    </li> <br>
+                    <li>
+                        Totir C., <i>Photo of Espresso.</i> [Online] [Accessed 27 February 2024] 
+                        Available from: https://www.tasteofhome.com/article/what-is-espresso/
+                    </li> <br>
+                    <li>
+                        2024. <i>Photograph of Caffe Americano.</i> [Online] [Accessed 27 February 2024] 
+                        Available from: https://www.castironketo.net/friendly/beverages/caffeinated/coffees/cafe-cubano-espresso/
+                    </li> <br>
+                    <li>
+                        Cormack C. 2023. <i>Photo of Caffe Affogato</i> [Online] [Accessed 20 April 2024] Available from:
+                        https://www.thespruceeats.com/affogato-4776668
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

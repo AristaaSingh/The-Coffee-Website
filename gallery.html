@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Abril Fatface font taken from Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!-- icons from Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar1">
+        <a class="navbar-brand">Explore Coffee<i class='bx bxs-coffee-bean'></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+                <!-- dropdown menu which extends from types of coffee option -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Types of Coffee</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="1Cappuccino.html">Cappuccino</a>
+                        <a class="dropdown-item" href="2Mocha.html">Caffe Mocha</a>
+                        <a class="dropdown-item" href="3Espresso.html">Espresso</a>
+                        <a class="dropdown-item" href="4Americano.html">Caffe Americano</a>
+                        <a class="dropdown-item" href="5Affogato.html">Caffe Affogato</a>
+                        <a class="dropdown-item" href="types.html"><i class='bx bx-collection' ></i> See All</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="newsletter.html">Newsletter</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+    <h2 class="h2-combinations"> Discover More Unique Coffee! </h2>
+    <br><br>
+
+    <div class="container-gallery">
+        <div class="card" id="card1">
+            <div class="image-box">
+                <img src="images/MatchaCoffee.jpg" alt="Matcha Coffee">
+            </div>
+            <div class="content">
+                <h2 class="h2-combinations">Matcha Coffee</h2>
+                <p class="card-content1" style="padding: 0;"> Coffee with matcha tea. </p>
+            </div>
+        </div>
+        <div class="card" id="card2">
+            <div class="image-box">
+                <img src="images/ChocoFrappe.jpg" alt="Chocolate Frappe">
+            </div>
+            <div class="content">
+                <h2 class="h2-combinations">Creamy Chocolate Frappe</h2>
+                <p class="card-content1""> Cold coffee with blended cocoa powder and chocolate. </p>
+            </div>
+        </div>
+        <div class="card" id="card3">
+            <div class="image-box">
+                <img src="images/IrishCoffee.jpg" alt="Irish Coffee">
+            </div>
+            <div class="content">
+                <h2 class="h2-combinations">Classic Irish Coffee</h2>
+                <p class="card-content1"> Hot Coffee with Irish whiskey, topped with cream. </p>
+            </div>
+        </div>
+        <div class="card" id="card4">
+            <div class="image-box">
+                <img src="images/CaramelFrappe.jpg" alt="Salted Caramel Frappe">
+            </div>
+            <div class="content">
+                <h2 class="h2-combinations">Salted Caramel Frappe</h2>
+                <p class="card-content1"> Coffee with whipped cream and caramel sauce. </p>
+            </div>
+        </div>
+        <div class="card" id="card5">
+            <div class="image-box">
+                <img src="images/Romano.jpg" alt="Romano">
+            </div>
+            <div class="content">
+                <h2 class="h2-combinations">Romano</h2>
+                <p class="card-content1"> Espresso with lemon, lemon slice for garnish. </p>
+            </div>
+        </div>
+        <div class="card" id="card6">
+            <div class="image-box">
+                <img src="images/Turkish.jpg" alt="Turkish Coffee">
+            </div>
+            <div class="content">
+                <h2 class="h2-combinations">Turkish Coffee</h2>
+                <p class="card-content1"> Coffee prepared in a cezve using very finely ground coffee beans without 
+                filtering. </p>
+            </div>
+        </div>
+        <div class="card" id="card7">
+            <div class="image-box">
+                <img src="images/Mexican.jpg" alt="Mexican Coffee">
+            </div>
+            <div class="content">
+                <h2 class="h2-combinations">Mexican Coffee</h2>
+                <p class="card-content1"> Coffee prepared in a cezve using very finely ground coffee beans without 
+                filtering. </p>
+            </div>
+        </div>
+        <div class="card" id="card8">
+            <div class="image-box">
+                <img src="images/ChaiCoffee.jpg" alt="Chai Latte">
+            </div>
+            <div class="content">
+                <h2 class="h2-combinations">Chai Latte</h2>
+                <p class="card-content1"> Latte with toasted spices: cardamom, cinnamon sticks, cloves, and whole star
+                anise.</p>
+            </div>
+        </div>
+        
+    </div>
+    <br><br>
+    
+    <!-- referencing for gallery page -->
+    <footer class="bg-light text-justify py-3">
+        <div class="container-references">
+            <h6 class="h6-references">References</h3>
+            <p>
+                <ul class='reference'>
+                    <li>
+                        Esquires: The Organic Coffee Co. 2024. <i>MATCHA VS COFFEE: WHAT'S THEIR CAFFEINE CONTENT?.</i> 
+                        [Online]. [Accessed 2 May 2024]. Available from: 
+                        https://esquirescoffee.co.uk/news/matcha-vs-coffee/
+                    </li> <br>
+                    <li>
+                        Nestle. 2022. <i>Creamy Chocolate Frappe.</i> [Online] [Accessed 2 May 2024]. Available from:
+                        https://www.createwithnestle.ph/recipes/creamy-chocolate-frappe
+                    </li> <br>
+                    <li>
+                        Hofacker, B. 2024. <i>Photo of Irish Coffee.</i> [Online]. [Accessed 3 May 2024]. Available
+                        from: https://www.foodandwine.com/irish-coffee-recipe-6891735
+                    </li> <br>
+                    <li>
+                        Shott. 2020. <i>Salted Caramel Frappe.</i> [Online]. [Accessed 4 May 2024]. Available from:
+                        https://shottbeverages.com/recipe/salted-caramel-frappe/
+                    </li> <br>
+                    <li>
+                        Enso. <i>Coffee cup with espresso served with lemon on white background with shadows and 
+                        sunlight.</i> [Online]. [Accessed 6 May 2024]. Available from: 
+                        https://stock.adobe.com/search?k=%22espresso+romano%22&asset_id=433851342
+                    </li> <br>
+                    <li>
+                        Shutterstock. <i>Turkey's coffee culture has a unique style of brewing and presentation.</i>
+                        [Online]. [Accessed 7 May 2024]. Available from:
+                        https://www.lonelyplanet.com/articles/a-guide-to-drinking-turkish-coffee
+                    </li> <br>
+                    <li>
+                        Maroney, L. 2024. <i>Photo of Mexican Coffee.</i> [Online]. [Accessed 7 May 2024]. Available 
+                        from: https://www.thespruceeats.com/mexican-coffee-4783525
+                    </li> <br>
+                    <li>
+                        Splenda. 2021. <i>Vanilla Chai Latte.</i> [Online]. [Accessed 7 May 2024]. Available from:
+                        https://www.splenda.com/recipe/vanilla-chai-latte/
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="Hover.js"></script>
+
+</body>
+</html>
